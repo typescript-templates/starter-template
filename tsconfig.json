@@ -22,7 +22,7 @@
     ],
     "jsx": "react",
     "removeComments": true,
-    "declaration": true,
+    "declaration": false,
     "sourceMap": true,
     "outDir": "dist",
     "rootDir": "src",
