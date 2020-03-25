@@ -41,8 +41,8 @@
   "devDependencies": {
     "@types/chai": "^4.2.9",
     "@types/mocha": "^7.0.1",
-    "@typescript-eslint/eslint-plugin": "^2.19.2",
-    "@typescript-eslint/parser": "^2.19.2",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
     "chai": "^4.2.0",
     "cross-spawn": "^7.0.1",
     "del": "^5.1.0",
@@ -56,11 +56,11 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-typedoc": "^2.2.4",
     "gulp-typescript": "^6.0.0-alpha.1",
-    "mocha": "^7.0.1",
+    "mocha": "^7.1.0",
+    "rimraf": "3.0.2",
     "ts-node": "8.6.2",
-    "typedoc": "^0.16.10",
-    "typescript": "^3.7.5",
-    "rimraf": "3.0.2"
+    "typedoc": "^0.16.11",
+    "typescript": "^3.8.2"
   },
   "author": {
     "name": "Peter Ullrich",
@@ -71,6 +71,8 @@
     "url": "https://github.com/typescript-templates/starter-template"
   },
   "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "bcrypt": "^4.0.0",
     "recursive": "^0.0.2"
   }
 }
